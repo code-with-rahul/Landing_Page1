@@ -1,0 +1,144 @@
+@media screen and (max-width: 991px){
+
+    h3{
+        font-size: 1.3rem;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin-right: 20ox;
+    }
+
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .main-nav {
+        overflow: initial;
+        
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    .examples-area {
+        gap: 20px;
+    }
+
+    .examples-card1 {
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+
+    .examples-card2 {
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+
+    .examples-card3 {
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+
+    .examples-card4 {
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+
+    .cta-section {
+        padding-block: 80px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+
+    .primary-button {
+        width: 100%;
+    }
+
+    .header-section {
+        flex-direction: column-reverse;
+    }
+
+    .features-card {
+        min-width: calc(50% - 10px);
+    }
+
+    .big-feature-container{
+        flex-direction: column;
+    }
+    
+    #bfs {
+        flex-direction: column-reverse;
+    }
+
+    .cta-section-container {
+        text-align: center;
+    }
+
+    .footer-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .link-column {
+        align-items: stretch;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    :root {
+        --padding-inline-section: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .features-card {
+        min-width: 100%;
+    }
+
+    .examples-card1 {
+        width: 100%;
+    }
+
+    .examples-card2 {
+        width: 100%;
+    }
+
+    .examples-card3 {
+        width: 100%;
+    }
+
+    .examples-card4 {
+        width: 100%;
+    }
+
+}
